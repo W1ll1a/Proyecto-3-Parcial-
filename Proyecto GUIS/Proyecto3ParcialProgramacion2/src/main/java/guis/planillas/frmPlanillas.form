@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="guis.planillas.frmPlanillas">
+  <grid id="27dc6" binding="JpaPlanillaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1015" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14728897"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="46147" binding="JpaIzquierdo" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4bfc1" class="javax.swing.JLabel" binding="lblHorasTrabajadas">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2713913"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Horas trabajadas"/>
+            </properties>
+          </component>
+          <component id="6c02f" class="javax.swing.JLabel" binding="lblHorasExtras">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Horas extras"/>
+            </properties>
+          </component>
+          <component id="f1772" class="javax.swing.JLabel" binding="lblTotalPagar">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Total a pagar"/>
+            </properties>
+          </component>
+          <component id="5c2bc" class="javax.swing.JLabel" binding="lblNombre">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Nombre"/>
+            </properties>
+          </component>
+          <component id="7935b" class="javax.swing.JLabel" binding="lblTotalPorHora">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Total por hora"/>
+            </properties>
+          </component>
+          <component id="99edd" class="javax.swing.JLabel" binding="lblId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <text value="Id"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f8111" binding="JpaDerecho" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="21914" class="javax.swing.JTextField" binding="txtNombre">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="cced5" class="javax.swing.JTextField" binding="txtTotalPorHora">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d0cd5" class="javax.swing.JTextField" binding="txtHorasTrabajadas">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5419c" class="javax.swing.JTextField" binding="txtHorasExtras">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3ac60" class="javax.swing.JTextField" binding="txtTotalPagar">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="fb54a" class="javax.swing.JTextField" binding="txtID">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="8bc74" binding="JpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="43e9b" class="javax.swing.JButton" binding="btnPost">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <hideActionText value="false"/>
+              <icon value="icons/allIcons/saveIcon.png"/>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="71373" class="javax.swing.JButton" binding="btnGetAll">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/ListIcon (1).png"/>
+              <text value="Listar"/>
+            </properties>
+          </component>
+          <component id="8acb0" class="javax.swing.JButton" binding="btnGetById">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/searchIcon.png"/>
+              <text value="Busca por Id"/>
+            </properties>
+          </component>
+          <component id="c4bed" class="javax.swing.JButton" binding="btnGetByName">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/searchIcon.png"/>
+              <text value="Buscar por nombre"/>
+            </properties>
+          </component>
+          <component id="d56ee" class="javax.swing.JButton" binding="btnPut">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/ModificarIcon.png"/>
+              <text value="Modificar"/>
+            </properties>
+          </component>
+          <component id="866da" class="javax.swing.JButton" binding="btnDelete">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/deleteIcon.png"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="b09b9" class="javax.swing.JButton" binding="btnVolver">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/back (1).png"/>
+              <text value="Volver"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3f0a1" binding="JpaInferior" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-14728897"/>
+          <foreground color="-15061323"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="a4a09" binding="scrlPlanilla">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="13" style="3"/>
+              <foreground color="-1052189"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="861e6" class="javax.swing.JTable" binding="tblPlanillas">
+                <constraints/>
+                <properties>
+                  <background color="-14728897"/>
+                  <fillsViewportHeight value="true"/>
+                  <font name="Arial Black" size="12" style="3"/>
+                  <foreground color="-1052189"/>
+                  <gridColor color="-7392459"/>
+                  <selectionBackground color="-7392459"/>
+                  <selectionForeground color="-15061323"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

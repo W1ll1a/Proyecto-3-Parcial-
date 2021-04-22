@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="guis.ticket.frmTicket">
+  <grid id="27dc6" binding="JpaTicketPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="942" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14728897"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b380" binding="JpaIzquierdo" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="987fa" class="javax.swing.JLabel" binding="lblId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="ID "/>
+            </properties>
+          </component>
+          <component id="a9827" class="javax.swing.JLabel" binding="lblCliente">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="Cliente"/>
+            </properties>
+          </component>
+          <component id="e5036" class="javax.swing.JLabel" binding="lblTelefono">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="Telefono"/>
+            </properties>
+          </component>
+          <component id="edbb6" class="javax.swing.JLabel" binding="lblProducto">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="Producto"/>
+            </properties>
+          </component>
+          <component id="16841" class="javax.swing.JLabel" binding="lblCantidad">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="Cantidad"/>
+            </properties>
+          </component>
+          <component id="832a2" class="javax.swing.JLabel" binding="lblFecha">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1052189"/>
+              <text value="Fecha de entrega"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="59ae4" binding="JpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="18d30" class="javax.swing.JButton" binding="btnPost">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/saveIcon.png"/>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="5af69" class="javax.swing.JButton" binding="btnGetAll">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/ListIcon (1).png"/>
+              <text value="Listar"/>
+            </properties>
+          </component>
+          <component id="16fa3" class="javax.swing.JButton" binding="btnGetById">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/searchIcon.png"/>
+              <text value="Buscar por Id"/>
+            </properties>
+          </component>
+          <component id="44688" class="javax.swing.JButton" binding="btnGetCliente">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/searchIcon.png"/>
+              <text value="Buscar cliente"/>
+            </properties>
+          </component>
+          <component id="8fba7" class="javax.swing.JButton" binding="btnPut">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/ModificarIcon.png"/>
+              <text value="Modificar"/>
+            </properties>
+          </component>
+          <component id="67f5" class="javax.swing.JButton" binding="btnDelete">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/deleteIcon.png"/>
+              <text value="Borrar"/>
+            </properties>
+          </component>
+          <component id="813c9" class="javax.swing.JButton" binding="btnVolver">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/back (1).png"/>
+              <text value="Volver"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a3a35" binding="JpaDerecho" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2f4c2" class="javax.swing.JTextField" binding="txtId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="55741" class="javax.swing.JTextField" binding="txtCliente">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="620c8" class="javax.swing.JTextField" binding="txtTelefono">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="548a4" class="javax.swing.JTextField" binding="txtProducto">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="41838" class="javax.swing.JTextField" binding="txtCantidad">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6be5a" class="javax.swing.JTextField" binding="txtFecha">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="65873" binding="JpaInferior" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="4d16b" binding="scrlTicket">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="97db6" class="javax.swing.JTable" binding="tblTicket">
+                <constraints/>
+                <properties>
+                  <background color="-14728897"/>
+                  <fillsViewportHeight value="true"/>
+                  <font name="Arial Black" size="12" style="3"/>
+                  <foreground color="-1052189"/>
+                  <gridColor color="-7392459"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
