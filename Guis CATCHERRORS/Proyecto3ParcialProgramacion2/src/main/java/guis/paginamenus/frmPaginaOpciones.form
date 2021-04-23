@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="guis.paginamenus.frmPaginaOpciones">
+  <grid id="27dc6" binding="JpaPaginaMenus" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="929" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14728897"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ac3e4" binding="JpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14728897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2aaab" class="javax.swing.JButton" binding="btnPlanilla">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/PlanillaIcon.png"/>
+              <text value="Planillas"/>
+            </properties>
+          </component>
+          <component id="67d6a" class="javax.swing.JButton" binding="btnRegistro">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/registerIcon (1).png"/>
+              <text value="Registros"/>
+            </properties>
+          </component>
+          <component id="d38ac" class="javax.swing.JButton" binding="btnSede">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/SedeIcon (1).png"/>
+              <text value="Sede"/>
+            </properties>
+          </component>
+          <component id="e7c3f" class="javax.swing.JButton" binding="btnTrabajador">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/employeeIcon (1).png"/>
+              <text value="Trabajadores"/>
+            </properties>
+          </component>
+          <component id="868fc" class="javax.swing.JButton" binding="btnVehiculo">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/vehicleIcon (1).png"/>
+              <text value="Vehiculos"/>
+            </properties>
+          </component>
+          <component id="2d72d" class="javax.swing.JButton" binding="btnTickets">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/ticketIcon.png"/>
+              <text value="Ticket"/>
+            </properties>
+          </component>
+          <component id="b86f2" class="javax.swing.JButton" binding="btnUsers">
+            <constraints/>
+            <properties>
+              <background color="-2724776"/>
+              <font name="Arial Black" size="12" style="3"/>
+              <foreground color="-1052189"/>
+              <icon value="icons/allIcons/UsersIcon (1).png"/>
+              <text value="Usuarios"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
